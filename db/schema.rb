@@ -13,6 +13,11 @@
 
 ActiveRecord::Schema.define(version: 20141111040418) do
 
+  create_table "projects", force: true do |t|
+    t.integer "leader_id"
+    t.text    "name"
+  end
+
   create_table "timestamps", force: true do |t|
     t.string   "project"
     t.integer  "horas"
