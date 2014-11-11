@@ -1,0 +1,29 @@
+<h1>Listing timestamps</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Horas</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @timestamps.each do |timestamp| %>
+      <tr>
+        <td><%= timestamp.project %></td>
+        <td><%= timestamp.horas %></td>
+        <td><%= link_to 'Show', timestamp %></td>
+        <td><%= link_to 'Edit', edit_timestamp_path(timestamp) %></td>
+        <td><%= link_to 'Destroy', timestamp, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Timestamp', new_timestamp_path %>

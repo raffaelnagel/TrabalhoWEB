@@ -1,0 +1,12 @@
+<%= simple_form_for(@timestamp) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :project %>
+    <%= f.input :horas %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
