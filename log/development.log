@@ -23412,3 +23412,3321 @@ Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 04:39:37 -0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 04:39:37 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProjectsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from index at /home/lbicuser1/timestamps/app/controllers/projects_controller.rb:22)
+  [1m[36mProject Load (2.9ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered projects/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 222ms (Views: 112.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:44 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+Processing by ProjectsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from index at /home/lbicuser1/timestamps/app/controllers/projects_controller.rb:22)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered projects/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 6.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:46 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+Processing by ProjectsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from index at /home/lbicuser1/timestamps/app/controllers/projects_controller.rb:22)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered projects/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 7.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:19:49 -0200
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2014-11-18 05:20:02 -0200
+Processing by ProjectsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered projects/new.html.erb within layouts/application (51.6ms)
+Completed 200 OK in 72ms (Views: 57.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:02 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:02 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:02 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:02 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:02 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:02 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:02 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:02 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:02 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:02 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:20:07 -0200
+Processing by ProjectsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from index at /home/lbicuser1/timestamps/app/controllers/projects_controller.rb:22)
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = ?  [["user_id", 1]]
+  Rendered projects/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:07 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:07 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:07 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:07 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:07 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:07 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:07 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:07 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:07 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:07 -0200
+
+
+Started GET "/index" for 127.0.0.1 at 2014-11-18 05:20:08 -0200
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (36.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (83.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+Processing by ProjectsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from index at /home/lbicuser1/timestamps/app/controllers/projects_controller.rb:22)
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = ?  [["user_id", 1]]
+  Rendered projects/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:20:11 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProjectsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from index at /home/lbicuser1/timestamps/app/controllers/projects_controller.rb:22)
+  [1m[36mProject Load (2.8ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered projects/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 215ms (Views: 110.5ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:25 -0200
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2014-11-18 05:22:27 -0200
+Processing by ProjectsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered projects/new.html.erb within layouts/application (49.9ms)
+Completed 200 OK in 69ms (Views: 56.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:27 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:27 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:27 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:28 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:28 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:28 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:28 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:28 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:28 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:28 -0200
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+Processing by ProjectsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered projects/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 13ms (Views: 8.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:22:30 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:26:24 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" ORDER BY created_at desc
+  Rendered site/index.html.erb within layouts/application (33.6ms)
+Completed 500 Internal Server Error in 86ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for 1:Fixnum):
+    1:   <% @projects.each do |project| %>
+    2:     <tr>
+    3:       <td><%= link_to project.name,project.desc, project.estTime %></td>
+    4:     </tr>
+    5:   <% end %>
+  app/views/site/index.html.erb:3:in `block in _app_views_site_index_html_erb__3442887435714886249_29325760'
+  app/views/site/index.html.erb:1:in `_app_views_site_index_html_erb__3442887435714886249_29325760'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" ORDER BY created_at desc
+  Rendered site/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 143ms (Views: 117.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:26 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+Processing by SiteController#index as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" ORDER BY created_at desc[0m
+  Rendered site/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:45 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:27:53 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" ORDER BY created_at desc
+  Rendered site/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 141ms (Views: 115.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:27:54 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" ORDER BY created_at desc
+  Rendered site/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 141ms (Views: 115.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:11 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+Processing by SiteController#index as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" ORDER BY created_at desc[0m
+  Rendered site/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:28:13 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:28:39 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" ORDER BY created_at desc
+  Rendered site/index.html.erb within layouts/application (31.1ms)
+Completed 500 Internal Server Error in 81ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for 1:Fixnum):
+    1:   <% @projects.each do |project| %>
+    2:     <tr>
+    3:       <td><%= link_to project.name, project.desc, project.estTime %></td>
+    4:     </tr>
+    5:   <% end %>
+  app/views/site/index.html.erb:3:in `block in _app_views_site_index_html_erb___772065915569461801_28315040'
+  app/views/site/index.html.erb:1:in `_app_views_site_index_html_erb___772065915569461801_28315040'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:35:26 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" ORDER BY created_at desc[0m
+  Rendered site/index.html.erb within layouts/application (44.4ms)
+Completed 200 OK in 2648ms (Views: 2622.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:29 -0200
+
+
+Started GET "/a" for 127.0.0.1 at 2014-11-18 05:35:41 -0200
+
+ActionController::RoutingError (No route matches [GET] "/a"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (35.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (85.1ms)
+
+
+Started GET "/a" for 127.0.0.1 at 2014-11-18 05:35:41 -0200
+
+ActionController::RoutingError (No route matches [GET] "/a"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (42.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" ORDER BY created_at desc[0m
+  Rendered site/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:35:45 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" ORDER BY created_at desc[0m
+  Rendered site/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:36:54 -0200
+
+
+Started GET "/site/index" for 127.0.0.1 at 2014-11-18 05:37:07 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" ORDER BY created_at desc[0m
+  Rendered site/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:07 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:07 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:07 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:07 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:07 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:07 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:07 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:07 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:07 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:07 -0200
+
+
+Started GET "/site/index" for 127.0.0.1 at 2014-11-18 05:37:10 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" ORDER BY created_at desc[0m
+  Rendered site/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:10 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:10 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:10 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:10 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:10 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:10 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:10 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:10 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:10 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:10 -0200
+
+
+Started GET "/site/index" for 127.0.0.1 at 2014-11-18 05:37:11 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" ORDER BY created_at desc[0m
+  Rendered site/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:11 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:11 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:11 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:11 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:11 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:11 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:11 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:11 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:11 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:11 -0200
+
+
+Started GET "/site/index" for 127.0.0.1 at 2014-11-18 05:37:12 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" ORDER BY created_at desc[0m
+  Rendered site/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:12 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:12 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:12 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:12 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:12 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:12 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:12 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:12 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:12 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:12 -0200
+
+
+Started GET "/site/index" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered site/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:37:57 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-11-18 05:38:12 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:38:12 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered site/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:12 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:12 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:13 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:13 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:13 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:13 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:13 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:13 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:13 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:13 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered site/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:38:15 -0200
+
+
+Started GET "/users/" for 127.0.0.1 at 2014-11-18 05:40:06 -0200
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (42.6ms)
+
+
+Started GET "/user/" for 127.0.0.1 at 2014-11-18 05:40:09 -0200
+
+ActionController::RoutingError (No route matches [GET] "/user"):
+  actionpack (4.0.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.8) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.8) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.8) lib/rails/engine.rb:511:in `call'
+  railties (4.0.8) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (43.3ms)
+
+
+Started GET "/timestamps/" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+Processing by TimestampsController#index as HTML
+  [1m[36mTimestamp Load (0.2ms)[0m  [1mSELECT "timestamps".* FROM "timestamps"[0m
+  Rendered timestamps/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:40:14 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:40:18 -0200
+Processing by TimestampsController#new as HTML
+  Rendered timestamps/_form.html.erb (197.8ms)
+  Rendered timestamps/new.html.erb within layouts/application (199.7ms)
+Completed 500 Internal Server Error in 204ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= simple_form_for(@project) do |f| %>
+    2:   <%= f.error_notification %>
+    3: 
+    4:   <div class="form-inputs">
+  app/views/timestamps/_form.html.erb:1:in `_app_views_timestamps__form_html_erb___3642836382347637960_33154240'
+  app/views/timestamps/new.html.erb:3:in `_app_views_timestamps_new_html_erb__2201253084122955570_33013820'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:40:19 -0200
+Processing by TimestampsController#new as HTML
+  Rendered timestamps/_form.html.erb (1.1ms)
+  Rendered timestamps/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= simple_form_for(@project) do |f| %>
+    2:   <%= f.error_notification %>
+    3: 
+    4:   <div class="form-inputs">
+  app/views/timestamps/_form.html.erb:1:in `_app_views_timestamps__form_html_erb___3642836382347637960_70365389058040'
+  app/views/timestamps/new.html.erb:3:in `_app_views_timestamps_new_html_erb__2201253084122955570_70365389019060'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+Processing by TimestampsController#new as HTML
+  [1m[35mMember Load (0.3ms)[0m  SELECT "members".* FROM "members"
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"[0m
+  Rendered timestamps/_form.html.erb (85.0ms)
+  Rendered timestamps/new.html.erb within layouts/application (86.0ms)
+Completed 200 OK in 94ms (Views: 91.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:07 -0200
+
+
+Started GET "/timestamps" for 127.0.0.1 at 2014-11-18 05:43:39 -0200
+Processing by TimestampsController#index as HTML
+  [1m[35mTimestamp Load (0.2ms)[0m  SELECT "timestamps".* FROM "timestamps"
+  Rendered timestamps/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:39 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:39 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:39 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:39 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:39 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:39 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:39 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:39 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:39 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:39 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:43:40 -0200
+Processing by TimestampsController#new as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members"[0m
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered timestamps/_form.html.erb (8.7ms)
+  Rendered timestamps/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:40 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:40 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:40 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:40 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:40 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:40 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:40 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:40 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:40 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:43:40 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+Processing by TimestampsController#new as HTML
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members"[0m
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered timestamps/_form.html.erb (10.0ms)
+  Rendered timestamps/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:20 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+Processing by TimestampsController#new as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members"[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered timestamps/_form.html.erb (9.4ms)
+  Rendered timestamps/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+Processing by TimestampsController#new as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members"[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered timestamps/_form.html.erb (8.3ms)
+  Rendered timestamps/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:21 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:22 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:22 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:22 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:22 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:22 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:22 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:22 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:22 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:22 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:22 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:44:42 -0200
+Processing by TimestampsController#new as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members"[0m
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered timestamps/_form.html.erb (9.1ms)
+  Rendered timestamps/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:42 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:42 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:42 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:42 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:42 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:42 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:42 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:42 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:42 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:42 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:43 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:43 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:43 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:43 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:43 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:43 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:43 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:43 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:43 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:43 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+Processing by TimestampsController#new as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members"[0m
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered timestamps/_form.html.erb (8.0ms)
+  Rendered timestamps/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:44 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:44:57 -0200
+Processing by TimestampsController#new as HTML
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members"[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered timestamps/_form.html.erb (13.0ms)
+  Rendered timestamps/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:58 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+Processing by TimestampsController#new as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members"[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered timestamps/_form.html.erb (10.8ms)
+  Rendered timestamps/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+Processing by TimestampsController#new as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members"[0m
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered timestamps/_form.html.erb (8.5ms)
+  Rendered timestamps/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:44:59 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+Processing by TimestampsController#new as HTML
+  [1m[36mMember Load (0.3ms)[0m  [1mSELECT "members".* FROM "members"[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered timestamps/_form.html.erb (10.9ms)
+  Rendered timestamps/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/timestamps/new" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+Processing by TimestampsController#new as HTML
+  [1m[36mMember Load (0.2ms)[0m  [1mSELECT "members".* FROM "members"[0m
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects"
+  Rendered timestamps/_form.html.erb (7.3ms)
+  Rendered timestamps/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:00 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+Processing by SiteController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered site/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:46 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:47 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:47 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:47 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:47 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:47 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:47 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:47 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:47 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:47 -0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+Processing by SiteController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered site/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:45:48 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:47:32 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered site/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:47:33 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+Processing by SiteController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered site/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:09 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered site/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:13 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+Processing by SiteController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered site/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:31 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered site/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:48:34 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+Processing by SiteController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered site/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:49:41 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered site/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:01 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:50:09 -0200
+Processing by SiteController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" ORDER BY created_at desc
+  Rendered site/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:09 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:50:10 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:50:25 -0200
+Processing by SiteController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered site/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10: </thead>
+    11:  
+    12: <tbody>
+    13: <% @timestamp.each do |timestamp| %>
+    14: <tr>
+    15: <td><%= link_to project.name %></td>
+    16: <td><%= link_to project.desc %></td>
+  app/views/site/index.html.erb:13:in `_app_views_site_index_html_erb___2078092285830284225_70365388795820'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:51:12 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered site/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10: </thead>
+    11:  
+    12: <tbody>
+    13: <% @timestamp.each do |timestamp| %>
+    14: <tr>
+    15: <td><%= link_to timestamp.members_id %></td>
+    16: <td><%= link_to timestamp.projects_id %></td>
+  app/views/site/index.html.erb:13:in `_app_views_site_index_html_erb___2078092285830284225_70365394543860'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (29.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (39.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:52:10 -0200
+Processing by SiteController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered site/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10: </thead>
+    11:  
+    12: <tbody>
+    13: <% @timestamp.each do |timestamp| %>
+    14: <tr>
+    15: <td><%= link_to timestamp.project.desc %></td>
+    16: <td><%= link_to timestamp.project.name %></td>
+  app/views/site/index.html.erb:13:in `_app_views_site_index_html_erb___2078092285830284225_70365389471120'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:52:20 -0200
+Processing by SiteController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered site/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    10: </thead>
+    11:  
+    12: <tbody>
+    13: <% @timestamp.each do |timestamp| %>
+    14: <tr>
+    15: <td><%= link_to project.name %></td>
+    16: <td><%= link_to project.desc %></td>
+  app/views/site/index.html.erb:13:in `_app_views_site_index_html_erb___2078092285830284225_70365391500840'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+Processing by SiteController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" ORDER BY created_at desc
+  Rendered site/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/manprojects.css?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/timestamps.css?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/vendor/custom.modernizr.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:26 -0200
+
+
+Started GET "/site/index" for 127.0.0.1 at 2014-11-18 05:52:41 -0200
+Processing by SiteController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" ORDER BY created_at desc
+  Rendered site/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:41 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:41 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:41 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:41 -0200
+
+
+Started GET "/assets/manprojects.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:41 -0200
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:41 -0200
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:41 -0200
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:41 -0200
+
+
+Started GET "/assets/timestamps.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:41 -0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-18 05:52:41 -0200

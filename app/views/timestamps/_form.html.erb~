@@ -10,9 +10,6 @@
       </ul>
     </div>
   <% end %>
-  
-  
-  
  <div class="form-inputs">
   <div class="form-inputs">
     <%= f.label :members_id %><br>
