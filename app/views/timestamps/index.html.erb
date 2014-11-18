@@ -16,8 +16,8 @@
   <tbody>
     <% @timestamps.each do |timestamp| %>
       <tr>
-        <td><%=Member.find(timestamp.members_id).name %></td>
-        <td><%=Project.find(timestamp.projects_id).name %></td>
+        <td><%= timestamp.members %></td>
+        <td><%= timestamp.projects %></td>
         <td><%= timestamp.hours %></td>
         <td><%= timestamp.date %></td>
         <td><%= link_to 'Show', timestamp %></td>

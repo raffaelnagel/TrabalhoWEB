@@ -1,10 +1,5 @@
 TimeSheet::Application.routes.draw do
-<<<<<<< HEAD
   devise_for :users
-=======
-  resources :member_projects
-
->>>>>>> 1c09698232fac6a88454955da853f048990e979e
   resources :timestamps
 
   #get "welcome/index"
