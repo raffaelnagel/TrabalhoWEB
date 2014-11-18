@@ -1,0 +1,29 @@
+<h1>Listing member_projects</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Members</th>
+      <th>Projects</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @member_projects.each do |member_project| %>
+      <tr>
+        <td><%=Member.find(member_project.members_id).name %></td>
+        <td><%=Project.find(member_project.projects_id).name %></td>
+        <td><%= link_to 'Show', member_project %></td>
+        <td><%= link_to 'Edit', edit_member_project_path(member_project) %></td>
+        <td><%= link_to 'Destroy', member_project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Member project', new_member_project_path %>

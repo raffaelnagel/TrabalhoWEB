@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Members:</strong>
+  <%=Member.find(@member_project.members_id).name %>
+</p>
+
+<p>
+  <strong>Projects:</strong>
+  <%=Project.find(@member_project.projects_id).name %>
+</p>
+
+<%= link_to 'Edit', edit_member_project_path(@member_project) %> |
+<%= link_to 'Back', member_projects_path %>
