@@ -3,11 +3,11 @@ class ProjectsController < ApplicationController
 before_action :authenticate_user!
 
 def new
-   @project = Project.new
+   @project = current_user.projects.new
 end
 
 def create
-  @project = Project.new(project_params)
+  @project = current_user.projects.new(project_params)
  
   @project.save
   redirect_to @project
@@ -15,19 +15,19 @@ end
 
 
 def show
-  @project = Project.find(params[:id])
+  @project = current_user.projects.find(params[:id])
 end
 
 def index
-  @projects = Project.all
+  @projects = current_user.projects.all
 end
 
 def edit
-  @project = Project.find(params[:id])
+  @project = current_user.projects.find(params[:id])
 end
 
 def update
-  @project = Project.find(params[:id])
+  @project = current_user.projects.find(params[:id])
  
   if @project.update(project_params)
     redirect_to @project
@@ -37,14 +37,14 @@ def update
 end
 
 def destroy
-  @project = Project.find(params[:id])
+  @project = current_user.projects.find(params[:id])
   @project.destroy
  
   redirect_to projects_path
 end
  
 def destroy
-  @project = Project.find(params[:id])
+  @project = current_user.projects.find(params[:id])
   @project.destroy
  
   redirect_to projects_path
