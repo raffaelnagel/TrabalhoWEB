@@ -1,0 +1,19 @@
+<h1>Members</h1>
+
+<%= form_for :member, url: members_path do |f| %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %><br>
+    
+    <%= f.label :Leader %>
+    <%= f.check_box :isleader %><br>
+    <%= f.select :role_id, Role.all.collect{|u| [u.name, u.id]}  %>
+    
+  </p> 
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+<br><%= link_to 'Back', members_path %>

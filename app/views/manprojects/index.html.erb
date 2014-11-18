@@ -1,0 +1,27 @@
+<h1>Listing Projects</h1>
+ 
+<table>
+ 
+<% @projects.each do |projId| %>
+  
+  <tr>
+    <th>Project</th>
+    <td><%= Project.find(projId).name  %></td>
+    <th>Desciption</th>
+    <td><%= Project.find(projId).desc %></td>
+    <th>Time</th>
+    <td><%= Project.find(projId).estTime %></td>    
+  </tr>
+  <% @manprojects.each do |manproject| %>
+    <% if manproject.idProject==projId %>
+    <tr>
+      <th>Nome</th>
+      <td><%= Member.find(manproject.idMember).name %></td>
+    </tr>
+    <% end %>
+    <% end %>
+<% end %>
+</table>
+
+<br><%= link_to 'Back', projects_path %>
+
