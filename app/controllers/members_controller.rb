@@ -39,7 +39,7 @@ def destroy
   @member = Member.find(params[:id])
   @member.destroy
  
-  redirect_to roles_path
+  redirect_to members_path
 end
 
 private
