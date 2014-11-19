@@ -1,8 +1,9 @@
-Timestamps::Application.routes.draw do
-  #get "site/index"
-  devise_for :users
-  resources :timestamps
-  #root :to => "timestamps#index"
+TimeSheet::Application.routes.draw do
+  resources :members
+  resources :roles
+ 
+  
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -58,14 +59,4 @@ Timestamps::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  
-  ##
-  # Comment/remove these lines
-  # get "site/index"
-  # root 'timestamps#index'
-
-  # Use this
-  root 'site#index'
-  
-  
 end

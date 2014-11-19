@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Timestamps::Application.config.secret_key_base = 'd671c61ff4ee8fe9203d2fe4b5418ecfdaa878159092b514776e343049e908eef612326dff8480bd4be95df618e48b90d936795fcef1b6ac9a1be91f1c444ddd'
+TimeSheet::Application.config.secret_key_base = '31f665e9a1225e238f106639ef1f98194f891abaab4a6048d45598383cded41ae60e4a1c408ac3ac0b840b522ffc48d5353a573ecb64df83c0abe45fca7ab789'

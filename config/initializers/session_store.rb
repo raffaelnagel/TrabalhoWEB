@@ -1,3 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-Timestamps::Application.config.session_store :cookie_store, key: '_timestamps_session'
+TimeSheet::Application.config.session_store :cookie_store, key: '_timeSheet_session'

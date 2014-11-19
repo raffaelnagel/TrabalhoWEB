@@ -1,12 +1,5 @@
 source 'https://rubygems.org'
 
-#layout
-gem 'zurb-foundation', '~> 4.2.2'
-gem 'simple_form', '~> 3.0.0.rc'
-
-#User autentiation
-gem 'devise', '~> 3.0.0.rc'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.8'
 
