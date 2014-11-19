@@ -3,7 +3,7 @@
 <%= form_for :role, url: role_path(@role), method: :patch do |f| %>
   <% if @role.errors.any? %>
   <div id="error_explanation">
-    <h2><%= pluralize(@article.errors.count, "error") %> prohibited
+    <h2><%= pluralize(@member.errors.count, "error") %> prohibited
       this role from being saved:</h2>
     <ul>
     <% @role.errors.full_messages.each do |msg| %>

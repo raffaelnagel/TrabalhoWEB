@@ -11,8 +11,9 @@
 </p>
 
 <p>
-  <strong>Role:</strong>
-  <%=@role.name %>
+  <strong>member:</strong>  
+  <%=Role.find(@member.role_id).name %>
 </p>
+
 
 <br><%= link_to 'Back', members_path %>
