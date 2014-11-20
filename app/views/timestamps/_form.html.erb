@@ -17,10 +17,10 @@
   </div>
   <div class="field">
     <%= f.label :projects_id %><br>
-    <%= f.text_field :projects_id %>
+    <%= f.select :projects_id, Project.all.collect{|u| [u.name, u.id]}  %>
   </div>
   <div class="field">
-    <%= f.label :hours %><br>
+    Hours worked<br>
     <%= f.text_field :hours %>
   </div>
   <div class="field">
