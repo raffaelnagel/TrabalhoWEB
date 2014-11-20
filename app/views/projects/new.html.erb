@@ -1,18 +1,21 @@
 <h1>Projects</h1>
 
-<%= form_for :projects, url: projects_path do |f| %>
+<%= form_for :project, url: projects_path do |f| %>
   <p>
     <%= f.label :name %><br>
     <%= f.text_field :name %><br>
     
-    <%= f.label :Leader %>
-    <%= f.select :member_id, Member.all.collect{|u| [u.name, u.id]}  %>
+    <%= f.label :Description %><br>
+    <%= f.text_field :desc %><br>
+    
+    <%= f.label :"Estimated Time(hours)" %><br>
+    <%= f.number_field :estTime %><br>
     
   </p> 
  
   <p>
     <%= f.submit %>
   </p>
-<% end %>
+<% end %> 
 
 <br><%= link_to 'Back', projects_path %>

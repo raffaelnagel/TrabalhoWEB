@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  desc: MyString
-  estTime: 1
+  idProject: 1
+  idMember: 1
+  isLeader: false
 
 two:
-  name: MyString
-  desc: MyString
-  estTime: 1
+  idProject: 1
+  idMember: 1
+  isLeader: false
