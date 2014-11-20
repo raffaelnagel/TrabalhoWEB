@@ -1,4 +1,6 @@
 TimeSheet::Application.routes.draw do
+  resources :member_projects
+
   resources :timestamps
 
   #get "welcome/index"
