@@ -1,0 +1,2 @@
+module ManprojectsHelper
+end
