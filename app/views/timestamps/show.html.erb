@@ -2,12 +2,12 @@
 
 <p>
   <strong>Members:</strong>
-  <%= @timestamp.members %>
+  <%=Member.find(@timestamp.members_id).name %><>
 </p>
 
 <p>
   <strong>Projects:</strong>
-  <%= @timestamp.projects %>
+  <%=Project.find(@timestamp.projects_id).name %>
 </p>
 
 <p>
