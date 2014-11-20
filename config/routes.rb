@@ -1,8 +1,10 @@
 TimeSheet::Application.routes.draw do
-  get "welcome/index"
+  #get "welcome/index"
+  resources :projects
   resources :members
   resources :roles
-  resources :projects
+  resources :manprojects
+ 
   
 
 
