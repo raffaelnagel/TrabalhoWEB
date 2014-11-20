@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141120172129) do
+ActiveRecord::Schema.define(version: 20141120163658) do
 
   create_table "manprojects", force: true do |t|
     t.integer  "idProject"
@@ -20,16 +20,6 @@ ActiveRecord::Schema.define(version: 20141120172129) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
-  create_table "member_projects", force: true do |t|
-    t.integer  "members_id"
-    t.integer  "projects_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "member_projects", ["members_id"], name: "index_member_projects_on_members_id"
-  add_index "member_projects", ["projects_id"], name: "index_member_projects_on_projects_id"
 
   create_table "members", force: true do |t|
     t.string   "name"
@@ -45,6 +35,7 @@ ActiveRecord::Schema.define(version: 20141120172129) do
     t.integer  "estTime"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   create_table "roles", force: true do |t|
@@ -64,5 +55,15 @@ ActiveRecord::Schema.define(version: 20141120172129) do
 
   add_index "timestamps", ["members_id"], name: "index_timestamps_on_members_id"
   add_index "timestamps", ["projects_id"], name: "index_timestamps_on_projects_id"
+
+  create_table "users", force: true do |t|
+    t.string   "email",               default: "", null: false
+    t.string   "encrypted_password",  default: "", null: false
+    t.datetime "remember_created_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
 
 end

@@ -23720,3 +23720,16 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-20 15:38:22 -02
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-20 15:38:22 -0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-20 16:29:07 -0200
+
+NoMethodError (undefined method `devise_for' for #<ActionDispatch::Routing::Mapper:0x37c8bd0>):
+  config/routes.rb:2:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (18.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.1ms)
