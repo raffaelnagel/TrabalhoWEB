@@ -1,4 +1,5 @@
 TimeSheet::Application.routes.draw do
+  get "timestamps/index"
   devise_for :users
   resources :timestamps
 

@@ -1,0 +1,49 @@
+ 
+ 
+ <% if current_user %>
+<h2>Latest Projects</h2>
+<table style="width: 100%">
+<thead>
+<tr>
+<th>Project Name</th>
+<th>Project Desciption</th>
+</tr>
+</thead>
+
+  <% content_for :title, "Timestamp" %>
+  
+<tbody>
+<% @projects.each do |project| %>
+<tr>
+<td><%= link_to project.name %></td>
+<td><%= link_to project.desc %></td>
+</tr>
+<% end %>
+</tbody>
+</table>
+ 
+<% else %>
+<div class="panel">
+<h1>Share your Projects!</h1>
+<p>A simple app to track and share your projects with others.</p>
+<%= link_to "Get started today", new_user_registration_path, :class => "button button-large" %>
+</div>
+ 
+<hr>
+ 
+<div class="row">
+<div class="large-8 columns">
+<h3>Developed By</h3>
+<p>
+Neimar Bitencourt Braga, Suya Pereira Castilhos, Guilherme Longoni, Raffael Nagel
+</p>
+<p></p>
+</div>
+<div class="large-4 columns">
+<h3>About this app</h3>
+<p>This is a projet for the Web Development Class - UFRGS. Check the source code on <a href="https://github.com/raffaelnagel/TrabalhoWEB" target="_blank">GitHub</a>. </p>
+</div>
+</div>
+<% end %> 
+ 
+ 
