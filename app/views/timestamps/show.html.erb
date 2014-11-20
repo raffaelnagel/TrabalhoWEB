@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Members:</strong>
+  <%= @timestamp.members %>
+</p>
+
+<p>
+  <strong>Projects:</strong>
+  <%= @timestamp.projects %>
+</p>
+
+<p>
+  <strong>Hours:</strong>
+  <%= @timestamp.hours %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @timestamp.date %>
+</p>
+
+<%= link_to 'Edit', edit_timestamp_path(@timestamp) %> |
+<%= link_to 'Back', timestamps_path %>
