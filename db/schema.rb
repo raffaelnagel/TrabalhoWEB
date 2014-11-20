@@ -13,14 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20141120172129) do
 
-  create_table "manprojects", force: true do |t|
-    t.integer  "idProject"
-    t.integer  "idMember"
-    t.boolean  "isLeader"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "member_projects", force: true do |t|
     t.integer  "members_id"
     t.integer  "projects_id"

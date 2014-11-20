@@ -1,5 +1,6 @@
 class TimestampsController < ApplicationController
   before_action :set_timestamp, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
 
   # GET /timestamps
   # GET /timestamps.json
