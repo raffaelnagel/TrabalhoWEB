@@ -2,6 +2,34 @@
 // Foundation Variables
 //
 
+
+//********BY LONGONI*****************///
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+div {
+	text-align: center;
+	padding: 2px;
+}
+
+.form-date {
+text-color: red;
+}
+
+//***********************////
+
+
+
+
+
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
 $base-font-size: 100% !default;
@@ -147,10 +175,6 @@ $default-float: left;
 // $header-text-rendering: optimizeLegibility;
 
 // Heading font sizes
-
-h1 {
-	text-align: center;
-}
 
 // $h1-font-size: emCalc(44px);
 // $h2-font-size: emCalc(37px);
@@ -1132,12 +1156,7 @@ h1 {
 
 // Background color for the table and even rows
 
- table {
-	margin-left: auto;
-	margin-right: auto;
- }
- 
-// $table-bg: red;
+// $table-bg: #fff;
 // $table-even-row-bg: #f9f9f9;
 
 // Table cell border style
@@ -1163,8 +1182,10 @@ h1 {
 
 // Display and margin of tables
 
- $table-display: table-cell;
- $table-margin-bottom: emCalc(20px);
+
+
+// $table-display: table-cell;
+// $table-margin-bottom: emCalc(20px);
 
 //
 // Image Thumbnail Variables
